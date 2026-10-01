@@ -1,0 +1,14 @@
+{
+  "id": "flowers",
+  "kind": "item",
+  "city": "paris",
+  "items": [
+    { "level": 1, "key": "seed" },
+    { "level": 2, "key": "sprout" },
+    { "level": 3, "key": "tulip" },
+    { "level": 4, "key": "rose" },
+    { "level": 5, "key": "bouquet" },
+    { "level": 6, "key": "flower_cart" }
+  ],
+  "sellValue": [1, 2, 4, 8, 16, 32]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "paris_stall",
+  "kind": "generator",
+  "city": "paris",
+  "items": [
+    {
+      "level": 1,
+      "key": "market_basket",
+      "generator": {
+        "maxCharges": null,
+        "cooldownSec": 0,
+        "produces": [
+          { "chain": "bakery", "level": 1, "weight": 45 },
+          { "chain": "flowers", "level": 1, "weight": 45 },
+          { "chain": "bakery", "level": 2, "weight": 5 },
+          { "chain": "flowers", "level": 2, "weight": 5 }
+        ]
+      }
+    },
+    {
+      "level": 2,
+      "key": "market_stall",
+      "generator": {
+        "maxCharges": null,
+        "cooldownSec": 0,
+        "produces": [
+          { "chain": "bakery", "level": 1, "weight": 38 },
+          { "chain": "flowers", "level": 1, "weight": 38 },
+          { "chain": "bakery", "level": 2, "weight": 12 },
+          { "chain": "flowers", "level": 2, "weight": 12 }
+        ]
+      }
+    },
+    {
+      "level": 3,
+      "key": "cafe_kiosk",
+      "generator": {
+        "maxCharges": null,
+        "cooldownSec": 0,
+        "produces": [
+          { "chain": "bakery", "level": 1, "weight": 30 },
+          { "chain": "flowers", "level": 1, "weight": 30 },
+          { "chain": "bakery", "level": 2, "weight": 18 },
+          { "chain": "flowers", "level": 2, "weight": 18 },
+          { "chain": "bakery", "level": 3, "weight": 2 },
+          { "chain": "flowers", "level": 3, "weight": 2 }
+        ]
+      }
+    },
+    {
+      "level": 4,
+      "key": "grand_bazaar",
+      "generator": {
+        "maxCharges": null,
+        "cooldownSec": 0,
+        "produces": [
+          { "chain": "bakery", "level": 1, "weight": 22 },
+          { "chain": "flowers", "level": 1, "weight": 22 },
+          { "chain": "bakery", "level": 2, "weight": 22 },
+          { "chain": "flowers", "level": 2, "weight": 22 },
+          { "chain": "bakery", "level": 3, "weight": 6 },
+          { "chain": "flowers", "level": 3, "weight": 6 }
+        ]
+      }
+    }
+  ],
+  "sellValue": [0, 0, 0, 0]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "paris",
+  "city": "paris",
+  "board": { "width": 7, "height": 9 },
+  "chains": ["bakery", "flowers"],
+  "initialBoard": [
+    { "cell": 0, "chain": "flowers", "level": 3, "blocker": "box" },
+    { "cell": 1, "chain": "flowers", "level": 1, "blocker": "web" },
+    { "cell": 2, "chain": "bakery", "level": 1, "blocker": "web" },
+    { "cell": 3, "chain": "paris_stall", "level": 1, "blocker": "box" },
+    { "cell": 4, "chain": "bakery", "level": 1, "blocker": "web" },
+    { "cell": 5, "chain": "flowers", "level": 1, "blocker": "web" },
+    { "cell": 6, "chain": "bakery", "level": 3, "blocker": "box" },
+    { "cell": 7, "chain": "flowers", "level": 2, "blocker": "web" },
+    { "cell": 13, "chain": "bakery", "level": 2, "blocker": "web" },
+    { "cell": 24, "chain": "bakery", "level": 1 },
+    { "cell": 30, "chain": "flowers", "level": 1 },
+    { "cell": 31, "chain": "paris_stall", "level": 1 },
+    { "cell": 32, "chain": "bakery", "level": 1 },
+    { "cell": 38, "chain": "flowers", "level": 1 },
+    { "cell": 49, "chain": "bakery", "level": 2, "blocker": "web" },
+    { "cell": 55, "chain": "flowers", "level": 2, "blocker": "web" },
+    { "cell": 56, "chain": "flowers", "level": 4, "blocker": "box" },
+    { "cell": 57, "chain": "bakery", "level": 1, "blocker": "web" },
+    { "cell": 58, "chain": "flowers", "level": 2, "blocker": "web" },
+    { "cell": 59, "chain": "bakery", "level": 4, "blocker": "box" },
+    { "cell": 60, "chain": "flowers", "level": 1, "blocker": "web" },
+    { "cell": 61, "chain": "bakery", "level": 2, "blocker": "web" },
+    { "cell": 62, "chain": "paris_stall", "level": 1, "blocker": "box" }
+  ],
+  "orders": {
+    "slots": 3,
+    "minItems": 1,
+    "maxItems": 3,
+    "extraItemEveryLevels": 3,
+    "minLevel": 2,
+    "maxLevelByPlayerLevel": [
+      { "playerLevel": 1, "maxLevel": 3 },
+      { "playerLevel": 3, "maxLevel": 4 },
+      { "playerLevel": 6, "maxLevel": 5 },
+      { "playerLevel": 10, "maxLevel": 6 }
+    ]
+  },
+  "tasks": [
+    { "id": "clean_terrace", "cost": 10, "xp": 5, "requires": [] },
+    { "id": "paint_facade", "cost": 20, "xp": 8, "requires": ["clean_terrace"] },
+    { "id": "plant_flowerbeds", "cost": 30, "xp": 10, "requires": ["clean_terrace"] },
+    { "id": "fix_awning", "cost": 40, "xp": 12, "requires": ["paint_facade"] },
+    { "id": "install_lamps", "cost": 60, "xp": 15, "requires": ["fix_awning"] },
+    { "id": "tables_chairs", "cost": 80, "xp": 20, "requires": ["install_lamps", "plant_flowerbeds"] },
+    { "id": "light_eiffel", "cost": 120, "xp": 30, "requires": ["tables_chairs"] }
+  ]
+}

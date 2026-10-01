@@ -1,0 +1,14 @@
+{
+  "id": "bakery",
+  "kind": "item",
+  "city": "paris",
+  "items": [
+    { "level": 1, "key": "coffee_bean" },
+    { "level": 2, "key": "coffee" },
+    { "level": 3, "key": "croissant" },
+    { "level": 4, "key": "baguette" },
+    { "level": 5, "key": "pastry_box" },
+    { "level": 6, "key": "wedding_cake" }
+  ],
+  "sellValue": [1, 2, 4, 8, 16, 32]
+}

@@ -1,0 +1,37 @@
+{
+  "chains": {
+    "bakery": { "color": "#f4c58b", "outline": "#a0622d", "shape": "circle" },
+    "flowers": { "color": "#f7b7cf", "outline": "#b0406e", "shape": "diamond" },
+    "paris_stall": { "color": "#bfe3ff", "outline": "#2b6cb0", "shape": "square" }
+  },
+  "items": {
+    "coffee_bean": "🫘",
+    "coffee": "☕",
+    "croissant": "🥐",
+    "baguette": "🥖",
+    "pastry_box": "🧁",
+    "wedding_cake": "🎂",
+    "seed": "🌰",
+    "sprout": "🌱",
+    "tulip": "🌷",
+    "rose": "🌹",
+    "bouquet": "💐",
+    "flower_cart": "🌸",
+    "market_basket": "🧺",
+    "market_stall": "🛒",
+    "cafe_kiosk": "🏪",
+    "grand_bazaar": "🏬"
+  },
+  "tasks": {
+    "clean_terrace": "🧹",
+    "paint_facade": "🎨",
+    "plant_flowerbeds": "🌼",
+    "fix_awning": "⛱️",
+    "install_lamps": "💡",
+    "tables_chairs": "🪑",
+    "light_eiffel": "🗼"
+  },
+  "cities": {
+    "paris": "🗼"
+  }
+}

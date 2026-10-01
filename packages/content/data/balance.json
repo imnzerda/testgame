@@ -1,0 +1,19 @@
+{
+  "energy": { "max": 100, "start": 100, "regenSeconds": 120, "costPerGenerate": 1 },
+  "start": { "coins": 0, "gems": 10 },
+  "levels": {
+    "xpToNext": [10, 20, 30, 45, 60, 80, 100, 125, 150, 180, 210, 250, 300],
+    "refillEnergyOnLevelUp": true
+  },
+  "merge5": { "enabled": true, "inputs": 5, "outputs": 3 },
+  "autoMerge": { "unlockLevel": 10, "dailyUses": 3 },
+  "orderRewards": {
+    "coinBase": 2,
+    "coinMultiplier": 1.5,
+    "xpPerItemLevel": 1,
+    "energyChance": 0.1,
+    "energyAmount": 5,
+    "gemChance": 0.03,
+    "gemAmount": 1
+  }
+}
